@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador de senhas com Javascript</title>
+	<meta name="keyworlds" content="DanteHenri,geradordesenha,GERADORDESENHA">
+    <meta name="author" content="Dante.Henri,Jean.H.S">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <span class="slidecontainer">
+            Tamanho da senha:<br>
+     <input type="range" min="6" max="30" value="6" class="slider" id="Ranger">
+     <span id="saidaRanger"></span>
+            </span>
+<button class="btn">Gerar Nova Senha</button>
+<div>Senha atual:<br><span id="senhaAtual">----------------------</span></div>
+    </div>
+
+        <div class="historyContainer">
+<span id="Senhas"> Senhas Geradas:</span>
+<span></span>
+    </div>
+    </main>
+<script src='aplicativo.js'></script>
+</body>
+</html>
